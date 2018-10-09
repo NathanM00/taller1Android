@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Dato implements Serializable{
 
     public boolean arriba, abajo, dere, izqu,fuego;
-    public int jugador, contador;
+    public int jugador,contador;
 
 }
 

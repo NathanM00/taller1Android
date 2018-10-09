@@ -5,14 +5,13 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#3d3c3c">
+    android:background="#151515">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/j1"
         />
-
 
 <LinearLayout
     android:layout_width="wrap_content"
@@ -26,7 +25,7 @@
         android:src="@drawable/j1iz"
         android:layout_marginTop="85dp"
         android:id="@+id/btn_izquierda"
-        android:background="#3d3c3c"
+        android:background="#151515"
         />
     <LinearLayout
         android:layout_width="wrap_content"
@@ -41,7 +40,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginHorizontal="10dp"
         android:id="@+id/btn_arriba"
-        android:background="#3d3c3c"
+        android:background="#151515"
         />
 
         <ImageButton
@@ -52,7 +51,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginHorizontal="10dp"
             android:id="@+id/btn_abajo"
-            android:background="#3d3c3c"
+            android:background="#151515"
             />
 
 </LinearLayout>
@@ -64,7 +63,7 @@
         android:src="@drawable/j1de"
         android:layout_marginTop="85dp"
         android:id="@+id/btn_derecha"
-        android:background="#3d3c3c"
+        android:background="#151515"
         />
 
     <ImageButton
@@ -73,7 +72,7 @@
         android:text="enviar"
         android:src="@drawable/j1fue"
         android:id="@+id/btn_fuego"
-        android:background="#3d3c3c"        android:layout_marginTop="55dp"
+        android:background="#151515"        android:layout_marginTop="55dp"
         android:layout_marginHorizontal="40dp"
         />
 

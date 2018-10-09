@@ -107,6 +107,7 @@ public class Jugador1  extends AppCompatActivity implements View.OnTouchListener
 
             case R.id.btn_fuego:
                 dato.fuego=false;
+                dato.contador=0;
                 c.enviar(dato);
                 break;
 
