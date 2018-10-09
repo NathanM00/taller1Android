@@ -4,24 +4,23 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#3d3c3c">
+    android:background="@drawable/fondo3">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:layout_margin="40dp"
+        android:layout_margin="30dp"
         android:src="@drawable/titulo"
-        android:background="#3d3c3c"
+        android:background="@android:color/transparent"
         />
-
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jugador 1"
         android:layout_margin="20dp"
-        android:background="#3d3c3c"
+        android:background="@android:color/transparent"
         android:id="@+id/btn_j1"
         android:src="@drawable/j1"
         />
@@ -31,7 +30,7 @@
         android:layout_height="wrap_content"
         android:text="Jugador 2"
         android:layout_margin="20dp"
-        android:background="#3d3c3c"
+        android:background="@android:color/transparent"
         android:id="@+id/btn_j2"
         android:src="@drawable/j2"
         />

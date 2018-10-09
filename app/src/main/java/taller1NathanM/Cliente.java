@@ -26,7 +26,7 @@ public class Cliente extends Thread{
     @Override
     public void run() {
         try {
-            s = new Socket("172.30.131.109",5000);
+            s = new Socket("172.30.168.159",5000);
 
         } catch (UnknownHostException e) {
             // TODO Auto-generated catch block

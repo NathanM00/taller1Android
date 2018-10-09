@@ -11,6 +11,7 @@ import com.example.nathanm.taller1NathanM.R;
 public class MainActivity extends AppCompatActivity {
 
     private ImageButton btn_j1,btn_j2;
+    public int ip;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

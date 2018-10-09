@@ -1,9 +1,12 @@
 package taller1NathanM;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import com.example.nathanm.taller1NathanM.R;
@@ -13,16 +16,17 @@ public class Jugador2 extends AppCompatActivity implements View.OnTouchListener{
     private ImageButton btn_arriba,btn_abajo,btn_izquierda,btn_derecha,btn_fuego;
     private Cliente c;
     Dato dato;
-
+    Vibrator vibrator;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jugador2);
 
+        vibrator =(Vibrator)getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+
         c = new Cliente(this);
         c.start();
         dato = new Dato();
-
 
         btn_arriba = findViewById(R.id.btn_arriba);
         btn_abajo = findViewById(R.id.btn_abajo);
@@ -48,7 +52,6 @@ public class Jugador2 extends AppCompatActivity implements View.OnTouchListener{
         }else if(motionEvent.getAction()==MotionEvent.ACTION_UP){
             btnReleased(view);
         }
-
 
         return false;
     }
@@ -79,6 +82,7 @@ public class Jugador2 extends AppCompatActivity implements View.OnTouchListener{
             case R.id.btn_fuego:
                 dato.fuego=true;
                 c.enviar(dato);
+                vibrator.vibrate(50);
                 break;
 
         }
@@ -115,5 +119,6 @@ public class Jugador2 extends AppCompatActivity implements View.OnTouchListener{
 
         }
     }
+
 
 }
