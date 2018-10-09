@@ -23,6 +23,7 @@ public class Jugador2 extends AppCompatActivity implements View.OnTouchListener{
         c.start();
         dato = new Dato();
 
+
         btn_arriba = findViewById(R.id.btn_arriba);
         btn_abajo = findViewById(R.id.btn_abajo);
         btn_izquierda = findViewById(R.id.btn_izquierda);
