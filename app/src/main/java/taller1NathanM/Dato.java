@@ -8,3 +8,4 @@ public class Dato implements Serializable{
     public int jugador, contador;
 
 }
+

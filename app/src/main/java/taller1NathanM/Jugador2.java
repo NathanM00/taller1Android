@@ -14,6 +14,7 @@ public class Jugador2 extends AppCompatActivity implements View.OnTouchListener{
     private Cliente c;
     Dato dato;
 
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jugador2);
